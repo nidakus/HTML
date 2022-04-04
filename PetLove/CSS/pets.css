@@ -1,0 +1,21 @@
+
+.font-type {
+    font-size: 80px;
+    font-family: cursive;
+    font-style: italic;
+    color: deeppink;
+    text-align: center;
+}
+.font-type2 {
+    font-size: 60px;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+    color: deeppink;
+    text-align: center;
+}
+.metin {
+    text-align: center;
+    font-size: 25px;
+    list-style-position: inside;
+}
