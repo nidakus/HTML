@@ -1,0 +1,15 @@
+.googlelogo {
+    text-align: center;
+    width: 1800px;
+    margin: 0 auto;
+}
+.googlesearch {
+    width: 1600px;
+    margin: auto;
+    padding: auto;
+}
+.googlelink {
+    width:1600px; 
+    margin: auto; 
+    display: flex; 
+}
