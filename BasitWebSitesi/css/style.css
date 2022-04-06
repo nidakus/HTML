@@ -1,0 +1,124 @@
+/*Google fonts`dan secilen yazi stilini kullanmak icin @import eklendi*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Bubbles&display=swap');
+
+/* Sayfanin kenar bosluklarini sifirlamak icin */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sayfa ozelligi */
+.container {
+    background-color: rgb(231, 185, 231);
+    height: 100vh;
+    background-size: 100% 100%;
+}  
+
+/* Navbar ozelligi */
+.container .navbar {
+    background-color: violet;
+    width: 100%;
+    height: 80px;
+}
+
+/* Logo konumlandirmasi */
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+/* Logo ozellikleri */
+.logo a {
+   text-decoration: none; 
+   font-size: 30px;
+   font-family: sans-serif;
+   color: aliceblue;
+}
+
+/* liste elemanlarinin saga konumlandirilmasi */
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+/* liste elemanlarinin duzgun sekilde konumlandirilmasi */
+.navbar ul li {
+   display: inline-block;
+   list-style: none; 
+   margin: 0 8px;
+   line-height: 80px;
+}
+
+/* liste elemanlarinin ozellikleri */
+.navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .5s;
+    font-family: Roboto ; /*Google fonts`dan sectigim yazi stili(en ustte url ile belirttim)
+                           Not:Google fonts`dan secilen yazi stili icin sectigimiz yazinin,
+                           import kismini kopyalayip bu sekilde eklemeliyiz */
+}
+
+/* liste elemanlari uzerine geldigimizde saglanan stil */
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background-color: #ff6e00;
+    border-radius: 15px;
+}
+
+/* Yazinin sayfaya ortalanmasi ve stili */
+.container .center {
+    /* Sayfaya tam ortalamak icin */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* Bu yapi kullanilabilir */
+    font-family: sans-serif;
+    user-select: none; /* Yaziyi kopyalama imkani vermez */   
+}
+
+/* h1 yazisi ozellikleri */
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+/* h2 yazisi ozellikleri */
+.center h2 {
+    color: rgb(248, 244, 244);
+    font-size: 50px;
+    font-weight: bold;
+    width: 880px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Buttonlari ortaya hizalama */
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #9c6329;
+    background: rgb(252, 147, 77);
+    border:solid 1px orange;
+    cursor:pointer; /* imlec seklini degistirdik */
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.buttons button:hover  {
+    background: #e9e7e4;
+}
