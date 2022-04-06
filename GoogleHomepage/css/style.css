@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.container .navbar {
+    width: 100%;
+    height: 150px;   
+}
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 80px;
+    margin: 0 8px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.center img {
+    height: 120px;
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.center .input {
+    position: absolute;
+    top: 37%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.center .input input {
+    width: 700px;
+    height: 43px;
+    border-radius: 50px;
+    border-color: gainsboro;
+}
+.center .buttons {
+    position: absolute;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.buttons button {
+    height: 50px;
+    width: 300px;
+    cursor:pointer; /* imlec seklini degistirdik */
+    border-radius: 5px;
+    font-size: medium;
+    background-color: rgb(246, 241, 241);
+    padding: 9px 15px;
+    border-color: gainsboro;
+}
+.footer {
+    background: #f2f2f2;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    color: #222;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    line-height: 40px;
+    font-size: 10pt;
+}
+.footerleft{
+    display: inline;
+    float: left;
+}
+
+.footerright{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    height: 50px;
+}
+.footerleft a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 20px;
+    padding-left: 27px;
+}
+.footerright a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 20px;
+    padding-left: 27px;
+}
